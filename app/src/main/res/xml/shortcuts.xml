@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/addmoney"
+        android:shortcutDisabledMessage="@string/shortcut_disable_msg"
+        android:shortcutId="add_new_record"
+        android:shortcutLongLabel="@string/add_new_record"
+        android:shortcutShortLabel="@string/add_new_record_short">
+
+        <intent
+            android:action="com.matianyi.accountingapp.ADD_NEW_RECORD"
+            android:targetClass="com.matianyi.accountingapp.activity.AddRecordActivity"
+            android:targetPackage="com.matianyi.accountingapp" />
+
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/addfiles"
+        android:shortcutDisabledMessage="@string/shortcut_disable_msg"
+        android:shortcutId="add_custom_record"
+        android:shortcutLongLabel="@string/add_custom_record"
+        android:shortcutShortLabel="@string/add_custom_record_short">
+
+        <intent
+            android:action="com.matianyi.accountingapp.ADD_NEW_RECORD"
+            android:targetClass="com.matianyi.accountingapp.activity.AddCustomRecordActivity"
+            android:targetPackage="com.matianyi.accountingapp" />
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/datastatistics"
+        android:shortcutDisabledMessage="@string/shortcut_disable_msg"
+        android:shortcutId="statistics_shortcuts"
+        android:shortcutLongLabel="@string/general_stat"
+        android:shortcutShortLabel="@string/general_stat_short">
+
+        <intent
+            android:action="com.matianyi.accountingapp.GENERAL_STATISTICS"
+            android:targetClass="com.matianyi.accountingapp.activity.GeneralStaticsActivity"
+            android:targetPackage="com.matianyi.accountingapp" />
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+
+</shortcuts>

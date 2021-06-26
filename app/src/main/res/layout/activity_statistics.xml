@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.StatisticsActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:id="@+id/statistics_activity_page"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:id="@+id/general_statistics"
+            android:background="@drawable/stat_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="10dp"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:padding="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/new_statistics"
+                android:id="@+id/general_statistics_icon"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/general_statistics_icon"
+                android:text="@string/statistics_general"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:id="@+id/cost_recent_months_layout"
+            android:background="@drawable/stat_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="10dp"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:padding="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/expenditure"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:id="@+id/statistic_total_icon"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/statistic_total_icon"
+                android:text="@string/statistics_total_expenditure"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:id="@+id/statistic_most_expenditure_layout"
+            android:background="@drawable/stat_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:elevation="10dp"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:padding="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/pie_chart"
+                android:layout_gravity="center"
+                android:id="@+id/statistic_most_expenditure_category_icon"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:layout_toRightOf="@+id/statistic_most_expenditure_category_icon"
+                android:text="@string/statistics_most_expenditure_category"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:id="@+id/income_recent_months_layout"
+            android:background="@drawable/stat_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:elevation="10dp"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:padding="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/income"
+                android:id="@+id/statistic_income_recent_months_icon"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:layout_toRightOf="@+id/statistic_income_recent_months_icon"
+                android:text="@string/statistics_total_income"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:id="@+id/statistic_most_income_category"
+            android:background="@drawable/stat_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:elevation="10dp"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:padding="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/pie_chart"
+                android:id="@+id/statistic_most_category_icon"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:layout_toRightOf="@+id/statistic_most_category_icon"
+                android:text="@string/statistics_most_income_category"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:id="@+id/more_statistic_item_layout"
+            android:background="@drawable/stat_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:elevation="10dp"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:padding="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_format_list_bulleted_black_24dp"
+                android:id="@+id/statistic_more_icon"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:layout_toRightOf="@+id/statistic_more_icon"
+                android:text="@string/statistics_more"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

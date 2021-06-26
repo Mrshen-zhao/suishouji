@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">随手记</string>
+    <string name="title_statistics">统计</string>
+    <string name="title_about">关于</string>
+    <string name="title_update">更新</string>
+
+    <string name="statistics_total_expenditure">每月支出</string>
+    <string name="statistics_total_income">每月收入</string>
+
+    <string name="statistics_most_expenditure_category">支出大头</string>
+    <string name="statistics_most_income_category">收入来源</string>
+    <string name="statistics_general">总览</string>
+    <string name="statistics_more">更多</string>
+
+    <string name="add_new_record">记一笔</string>
+    <string name="add_new_record_short">记一笔</string>
+    <string name="add_custom_record">补一笔</string>
+    <string name="add_custom_record_short">补一笔</string>
+    <string name="shortcut_disable_msg">不可使用</string>
+    <string name="general_stat">总览</string>
+    <string name="general_stat_short">总览</string>
+
+    <!-- boom menu bar values -->
+    <string name="simple_circle_button_example">Simple Circle Button Example</string>
+    <string name="text_inside_circle_button_example">Text Inside Circle Button Example</string>
+    <string name="text_outside_circle_button_example">Text Outside Circle Button Example</string>
+    <string name="ham_button_example">Ham Button Example</string>
+    <string name="square_and_piece_corner_radius_example">Square And Piece Corner Radius Example</string>
+    <string name="boom_example">Boom Example</string>
+    <string name="button_place_alignment_example">Button Place Alignment Example</string>
+    <string name="order_example">Order Example</string>
+    <string name="actionbar_example">ActionBar Example</string>
+    <string name="tool_bar_example">ToolBar Example</string>
+    <string name="draggable_example">Draggable Example</string>
+    <string name="ease_example">Ease Example</string>
+    <string name="listener_example">Listener Example</string>
+    <string name="control_example">Control Example</string>
+    <string name="share_example">Share Example</string>
+    <string name="list_example">List Example</string>
+    <string name="recycler_view_example">Recycler View Example</string>
+    <string name="fragment_example">Fragment Example</string>
+    <string name="change_boom_button_example">Change Boom Button Example</string>
+    <string name="three_d_animation_example">3D Animation Example</string>
+    <string name="custom_position_example">Custom Position Example</string>
+    <string name="fade_views_example">Fade Views Example</string>
+    <string name="orientation_example">Orientation Example</string>
+
+    <string name="text_inside_circle_button_text_normal">Text Inside Circle Button(Normal)</string>
+    <string name="text_inside_circle_button_text_highlighted">Text Inside Circle Button(Highlighted)</string>
+    <string name="text_inside_circle_button_text_unable">Text Inside Circle Button(Unable)</string>
+
+    <string name="text_outside_circle_button_text_normal">Text Outside Circle Button(Normal)</string>
+    <string name="text_outside_circle_button_text_highlighted">Text Outside Circle Button(Highlighted)</string>
+    <string name="text_outside_circle_button_text_unable">Text Outside Circle Button(Unable)</string>
+
+    <string name="text_ham_button_text_normal">Ham Button Text(Normal)</string>
+    <string name="text_ham_button_text_highlighted">Ham Button Text(Highlighted)</string>
+    <string name="text_ham_button_text_unable">Ham Button Text(Unable)</string>
+    <string name="text_ham_button_sub_text_normal">Ham Button Sub Text(Normal)</string>
+    <string name="text_ham_button_sub_text_highlighted">Ham Button Sub Text(Highlighted)</string>
+    <string name="text_ham_button_sub_text_unable">Ham Button Sub Text(Unable)</string>
+</resources>

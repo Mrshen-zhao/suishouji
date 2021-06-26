@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.GeneralStaticsActivity">
+
+    <TextView
+        android:id="@+id/general_statistics_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="总览"
+        android:textSize="40dp"
+        android:textColor="@color/colorPrimary_text"
+        android:gravity="center_horizontal"
+        android:background="@drawable/date_background"
+        android:layout_margin="10dp"
+        />
+
+
+
+    <ListView
+        android:layout_margin="10dp"
+        android:layout_below="@+id/general_statistics_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:scrollbars="none"
+        android:layoutAnimation="@anim/anim_listview_item"
+        android:id="@+id/general_list_view">
+    </ListView>
+
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="bottom"
+    >
+
+    <ImageView
+        android:id="@+id/about_page_item_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="false"
+        android:layout_centerVertical="false"
+        android:padding="10dp"
+        android:foregroundGravity="bottom"
+        android:src="@drawable/person_item"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/about_page_item_icon"
+        android:text="author_info"
+        android:gravity="bottom|center"
+        android:textSize="30sp"
+        android:id="@+id/about_page_info"
+        android:elevation="10dp"
+        />
+
+    <!--
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/about_page_item_icon"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="10dp"
+        >
+        <TextView
+            android:id="@+id/about_page_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="author info"
+            android:textSize="36sp"
+            android:gravity="bottom"
+            android:layout_gravity="bottom"
+            android:textColor="@color/colorPrimary_text"
+            />
+    </LinearLayout>
+    -->
+</RelativeLayout>

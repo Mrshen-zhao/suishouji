@@ -1,0 +1,6 @@
+<root>
+    <item
+        name='android.database.sqlite.SQLiteDatabase android.database.Cursor rawQuery(java.lang.String, java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.Nullable' />
+    </item>
+</root>

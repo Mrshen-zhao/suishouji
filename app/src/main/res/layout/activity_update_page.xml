@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.UpdatePageActivity"
+    android:background="@color/white"
+    android:id="@+id/update_page"
+    >
+
+
+    <TextView
+        android:id="@+id/waiting_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查找更新中..."
+        android:layout_centerInParent="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/waiting_text"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/progress_bar"
+        android:layout_marginTop="10dp"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:outlineSpotShadowColor="@android:color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progress_bar"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv_progress"
+        />
+
+
+
+    <TextView
+        android:id="@+id/up_to_date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Oops! You are already up to date!"
+        android:textSize="25sp"
+        android:layout_margin="16dp"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/black"
+        />
+
+</RelativeLayout>
